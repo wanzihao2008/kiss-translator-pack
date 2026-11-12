@@ -1,0 +1,21 @@
+# 密钥与本地隐私 —— 永远不要提交
+*.key
+*.pem
+key.txt
+.env
+.env.*
+.local/
+secrets/
+*session*.json
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时
+*.tmp
+*.log
+~$*
