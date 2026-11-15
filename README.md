@@ -55,7 +55,7 @@
 
 适合商店打不开、或者要给别的机器装。
 
-1. 下载本仓库的 `extension/kiss-translator_v2.2.2_edge.zip`，解压到固定位置，例如
+1. 下载本仓库的 `extension/kiss-translator_v2.2.4_edge.zip`，解压到固定位置，例如
    `D:\tools\kiss-translator-edge\`（**解压后不要删、不要挪**）。
 2. 解压后里面是一个 **`edge`** 子文件夹，`manifest.json` 在它里面（不是 zip 根目录）。
 3. Edge 地址栏输入 `edge://extensions`。
@@ -158,14 +158,14 @@ Key 复制错（多了空格、少了字符）或账户没余额。去 <https://
 
 | 项目 | 值 |
 | --- | --- |
-| 上游版本 | v2.2.2（2026-11-11 发布） |
-| 本包文件 | `extension/kiss-translator_v2.2.2_edge.zip` |
-| SHA-256 | `70f6563d778c3e7208871db194ccc1f03693adb3c232b33798788c4eeaee5c16` |
+| 上游版本 | v2.2.4（2026-11-14 发布） |
+| 本包文件 | `extension/kiss-translator_v2.2.4_edge.zip` |
+| SHA-256 | `8ee1cf3c3a02d21e4ada8440f52b899d9455f740c8da25e902d72179377ee838` |
 
 校验（Windows PowerShell）：
 
 ```powershell
-Get-FileHash .\extension\kiss-translator_v2.2.2_edge.zip -Algorithm SHA256
+Get-FileHash .\extension\kiss-translator_v2.2.4_edge.zip -Algorithm SHA256
 ```
 
 和上表不一致就别装。升级到新版本时重新下载并更新这个文件即可，校验值同步写在 `extension/SHA256SUMS.txt`。
@@ -176,5 +176,5 @@ Get-FileHash .\extension\kiss-translator_v2.2.2_edge.zip -Algorithm SHA256
 
 - 上游项目：<https://github.com/fishjar/kiss-translator>，许可证 **GPL-3.0**，全文见本仓库 [LICENSE](LICENSE)。
 - 本仓库**只做再分发和文档**，`extension/` 里的二进制**未做任何修改**，版权归上游作者。
-- 依 GPL-3.0，对应源码在：<https://github.com/fishjar/kiss-translator/tree/v2.2.2>
+- 依 GPL-3.0，对应源码在：<https://github.com/fishjar/kiss-translator/tree/v2.2.4>
 - 使用本包即表示你同意上游许可证。如果上游停止维护，本包同样不再更新。
