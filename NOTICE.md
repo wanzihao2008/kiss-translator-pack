@@ -8,13 +8,13 @@
 | 作者 | fishjar 及贡献者 |
 | 仓库 | <https://github.com/fishjar/kiss-translator> |
 | 许可证 | GPL-3.0（全文见 [LICENSE](LICENSE)） |
-| 本包对应版本 | v2.2.2，tag <https://github.com/fishjar/kiss-translator/tree/v2.2.2> |
-| 官方发布页 | <https://github.com/fishjar/kiss-translator/releases/tag/v2.2.2> |
+| 本包对应版本 | v2.2.4，tag <https://github.com/fishjar/kiss-translator/tree/v2.2.4> |
+| 官方发布页 | <https://github.com/fishjar/kiss-translator/releases/tag/v2.2.4> |
 
 ## 本仓库做了什么
 
-- 下载并原样保存 v2.2.2 的 **Edge** 官方构建
-  `kiss-translator_v2.2.2_edge.zip`，未做任何修改。
+- 下载并原样保存 v2.2.4 的 **Edge** 官方构建
+  `kiss-translator_v2.2.4_edge.zip`，未做任何修改。
 - 记录 SHA-256 校验值，方便任何人核对没有被篡改。
 - 撰写中文安装与配置文档（商店安装、离线加载、DeepSeek 服务配置、快捷键、常见问题）。
 
